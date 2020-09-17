@@ -1,6 +1,6 @@
-package math_works;
+package Math_works;
 import java.util.Scanner;
-public class prime {
+public class Number_prime_or_not {
 
   public static void main(String[] args) {
   Scanner sc=new Scanner(System.in);
@@ -8,7 +8,7 @@ public class prime {
   boolean flag = false;
         for(int i = 2; i <= num/2; ++i)
         {
-            // condition for nonprime number
+            // condition for non-prime number
             if(num % i == 0)
             {
                 flag = true;
